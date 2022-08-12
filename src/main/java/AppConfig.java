@@ -8,7 +8,7 @@ public class AppConfig {
     @Bean(name="helloworld")
     public HelloWorld getHelloWorld() {
         HelloWorld helloWorld = new HelloWorld();
-        helloWorld.setMessage("Hello World!");
+        helloWorld.setMessage("Hello World!2");
         return helloWorld;
     }
     @Bean(name = "cat")
